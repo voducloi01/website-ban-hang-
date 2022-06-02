@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="webBanHang.BundleConfig" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.FilterConfig" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.ApplicationUserManager" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.ApplicationSignInManager" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.RouteConfig" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Startup" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.MvcApplication" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Controllers.AccountController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAChACAAAAAAAAFgEgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Controllers.CategoryController" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Controllers.ProductController" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAAgCAA=</HashCode>
+      <FileName>Controllers\ProductController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiShop.Controllers.CartController" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAABAAAA=</HashCode>
+      <FileName>Controllers\CartController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiShop.Controllers.HomeController" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAQEAEACAAAAAAAAAAAAAAAAAEAAAAgCAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiShop.Controllers.OrderController" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAACAI=</HashCode>
+      <FileName>Controllers\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ExternalLoginConfirmationViewModel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ExternalLoginListViewModel" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.SendCodeViewModel" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.VerifyCodeViewModel" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAAgAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ForgotViewModel" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.LoginViewModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.RegisterViewModel" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ResetPasswordViewModel" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ForgotPasswordViewModel" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.DataClasses1DataContext" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAACEQAQKCCIQGDBAAAAmAASAAEAEAAEgASAAAgAw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.Category" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAABAAAAAQAAQAGAIAQBjqAEQAUAAAAAAAMUIAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.Customer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIjAAIBACAAAHBARAUkAAARjCEgAAACAAEAAEAUAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.OrderDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAknAAAFAQAA4AEAQAEACAADjiAAAAAAAgAAgAgVAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.Order" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAiAAghQA0gAEBAQBUAKEKBnCCEAJAGKBQAgAAWEAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.Product" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YgQrAGIFAAUgIoFAQDGQqQVBjCCATJQEKjRggAK1mAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.Supplier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAjAQABACAAAAAQVAEAIAQBjikEQAEEAAAAKABUAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQiCAQBAIAAgEAAQAMEIAQRqCAARAASARAAAAAEEAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.UserGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEiACABAAAAgIAAQAEEIAQBiCAAQAQAABAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="webBanHang.Models.ApplicationUser" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.IndexViewModel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAQAAAEAEA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ManageLoginsViewModel" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.FactorViewModel" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.SetPasswordViewModel" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ChangePasswordViewModel" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.AddPhoneNumberViewModel" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.VerifyPhoneNumberViewModel" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="webBanHang.Models.ConfigureTwoFactorViewModel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Category" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Customer" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMCAAAAACAAACBAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiShopDbContext" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAAABAAAAAAAAAAEAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\MultiShopDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAECAAAAAAAgAAAAABAACACAAAAEABACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderDetail" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>Models\OrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgACACAAAAAgAoAAABCAAAVAAAAAABAAAgAAgAIgCAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoppingCart" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAAAAAACAAAAAAABAQAAAAAQAAAAAAAAABAAAA=</HashCode>
+      <FileName>Models\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Supplier" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAACAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAQ=</HashCode>
+      <FileName>Models\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

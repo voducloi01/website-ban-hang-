@@ -77,6 +77,6 @@ D:\ASP.net\webBanHang\webBanHang\bin\Microsoft.Owin.Security.OAuth.xml
 D:\ASP.net\webBanHang\webBanHang\bin\Microsoft.Owin.Security.Google.xml
 D:\ASP.net\webBanHang\webBanHang\bin\Microsoft.Owin.Security.Twitter.xml
 D:\ASP.net\webBanHang\webBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\ASP.net\webBanHang\webBanHang\obj\Debug\webBanHang.csprojResolveAssemblyReference.cache
 D:\ASP.net\webBanHang\webBanHang\obj\Debug\webBanHang.dll
 D:\ASP.net\webBanHang\webBanHang\obj\Debug\webBanHang.pdb
+D:\ASP.net\webBanHang\webBanHang\obj\Debug\webBanHang.csprojResolveAssemblyReference.cache

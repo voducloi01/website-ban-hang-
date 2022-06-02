@@ -19,7 +19,7 @@
     <div class="container">
         <header class="nn-header">
             <div class="col-sm-3 col-md-3 nn-text-align-center">
-                <img src="Content/img/logo.png" class="img-responsive" />
+                <img src="Content/img/logo1.png" height="100px" width="130px" class="img-responsive" />
             </div><!--end logo-->
             <div class="col-md-6 col-sm-6 ">
                 @Html.Partial("_Search")
@@ -36,92 +36,129 @@
         @Html.Partial("_Menu")
         <div class="container row">
             <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
-               @Html.Action("Category","Home")
+                @Html.Action("Category", "Home")
                 @Html.Action("Saleoff", "Home")
                 @Html.Action("Special", "Home")
-                  @Html.Partial("_AdBanner")
-               
+                @Html.Partial("_AdBanner")
+
             </div><!--end left-sidebar-->
             <div class="col-md-9 col-sm-9 col-lg-9 col-xs-12">
                 <div class="nn-home-banner">
                     <img src="Content/img/banner/home-banner03.jpg" class="img-responsive" />
                 </div><!--end home banner-->
                 @RenderBody()
-              
+
             </div>
         </div>
-        <div class="ma-footer-static">
-            <div class="container">
-                <div class="footer-static">
-                    <div class="row">
-                        <div class="f-col f-col-3 col-sm-6 col-md-4 col-sms-6 col-smb-12">
-                            <div class="img-logo"><a href="#"><img src="http://www.plazathemes.com/demo/ma_enzo/media/wysiwyg/logo.png" alt=""></a></div>
-                            <div class="footer-static-content ">
-                                <h3>
-                                    This is Photoshop's version  of Lorem
-                                    Ipsum.
-                                </h3>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit...</p>
-                            </div>
+        <footer>
+            <div class="footer-top-first">
+                <div class="container py-md-5 py-sm-4 py-3">
+                    <!-- footer first section -->
+                    <h2 class="footer-top-head-w3l font-weight-bold mb-2"></h2>
+                    <!-- //footer second section -->
+                </div>
+            </div>
+            <!-- footer third section -->
+            <div class="w3l-middlefooter-sec">
+                <div class="container py-md-5 py-sm-4 py-3">
+                    <div class="row footer-info w3-agileits-info" style="background-color: #BEBEBE;">
+                        <!-- footer categories -->
+                        <div class="col-md-3 col-sm-6 footer-grids">
+                            <h3 class="text-white font-weight-bold mb-3">Categories</h3>
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="product.html">Mobiles </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="product.html">Computers</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="product.html">TV, Audio</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="product2.html">Smartphones</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="product.html">Washing Machines</a>
+                                </li>
+                                <li>
+                                    <a href="product2.html">Refrigerators</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="f-col f-col-4 col-sm-6 col-md-2 col-sms-6 col-smb-12">
-                            <div class="footer-static-title">
-                                <h3>OUR SERVICES</h3>
-                            </div>
-                            <div class="footer-static-content">
-                                <ul>
-                                    <li class="first"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/about-magento-demo-store">About us</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Order History</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/privacy-policy-cookie-restriction-mode">Returns</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/customer-service">Custom Service</a></li>
-                                    <li class="last"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/catalogsearch/term/popular">Terms &amp; Condition</a></li>
-                                </ul>
-                            </div>
+                        <!-- //footer categories -->
+                        <!-- quick links -->
+                        <div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
+                            <h3 class="text-white font-weight-bold mb-3">Quick Links</h3>
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="help.html">Help</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="faqs.html">Faqs</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="terms.html">Terms of use</a>
+                                </li>
+                                <li>
+                                    <a href="privacy.html">Privacy Policy</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="f-col f-col-5 col-sm-6 col-md-2 col-sms-6 col-smb-12">
-                            <div class="footer-static-title">
-                                <h3>our support</h3>
-                            </div>
-                            <div class="footer-static-content ">
-                                <ul>
-                                    <li class="first"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/catalog/seo_sitemap/category">Sitemap</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/privacy-policy-cookie-restriction-mode">Privacy Policy</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/customer/account/index">Your Account</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/catalogsearch/advanced">Advanced Search</a></li>
-                                    <li class="last"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Contact Us</a></li>
-                                </ul>
-                            </div>
+                        <div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
+                            <h3 class="text-white font-weight-bold mb-3">Get in Touch</h3>
+                            <ul>
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker"></i> 123 Sebastian, USA.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-mobile"></i> 333 222 3333
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-phone"></i> +222 11 4444
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope-open"></i>
+                                    <a href="mailto:example@mail.com"> mail 1@example.com</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope-open"></i>
+                                    <a href="mailto:example@mail.com"> mail 2@example.com</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="f-col f-col-6 col-sm-6 col-md-2 col-sms-6 col-smb-12">
-                            <div class="footer-static-title">
-                                <h3>MY ACCOUNT</h3>
-                            </div>
-                            <div class="footer-static-content">
-                                <ul>
-                                    <li class="first"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/customer/account/index">My Account</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Order History</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Returns</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Specials</a></li>
-                                    <li class="last"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/catalog/seo_sitemap/category">Site Map</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="f-col f-col-7 col-sm-6 col-md-2 col-sms-6 col-smb-12">
-                            <div class="footer-static-title">
-                                <h3>information</h3>
-                            </div>
-                            <div class="footer-static-content">
-                                <ul>
-                                    <li class="first"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/about-magento-demo-store">About us</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/contacts">Delivery Information</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/privacy-policy-cookie-restriction-mode">Privacy Policy</a></li>
-                                    <li><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/customer-service">Custom Service</a></li>
-                                    <li class="last"><a href="http://www.plazathemes.com/demo/ma_enzo/index.php/catalogsearch/term/popular">Terms &amp; Condition</a></li>
-                                </ul>
-                            </div>
+                        <div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
+                            <!-- newsletter -->
+                            <h3 class="text-white font-weight-bold mb-3">Newsletter</h3>
+                            <p class="mb-3">Free Delivery on your first order!</p>
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" name="email" required="">
+                                    <input type="submit" value="Go">
+                                </div>
+                            </form>
+                            <!-- //newsletter -->
+                            <!-- social icons -->
+                            <!-- //social icons -->
                         </div>
                     </div>
+                    <!-- //quick links -->
                 </div>
+            </div>
+
+        </footer>
+        <div class="copy-right py-3">
+            <div class="container">
+                <h4 class="text-center text-white">
+                    © 2021 Electro Store. All rights reserved | Design by
+                    <a href="">Võ Đức Lợi</a>
+                </h4>
             </div>
         </div>
     </div>
@@ -139,6 +176,33 @@
             });
         })
     </script>
+    @section scripts{
+        <script>
+        $(function () {
+            $(".add-to-cart").click(function () {
+                pid = $(this).attr("data-id");
+                $.ajax({
+                    url: "/Cart/Add",
+                    data: { id: pid },
+                    success: function (response) {
+                        alert("Đã Thêm Vào giỏ hàng thành công!")
+                        $("#nn-cart-count").html(response.Count);
+                        $("#nn-cart-total").html(response.Total);
+                    }
+                });
+
+                // hieu ung bay vao gio
+                cssfly = ".fly-effect {background:url(?);background-size:100% 100%;}";
+                src = $("#i" + pid).attr("src");
+                newcssfly = cssfly.replace("?", src);
+                $("#cart-fly").html(newcssfly);
+
+                options = { to: "#nn-cart-image", className: "fly-effect" };
+                $("#i" + pid).effect("transfer", options, 500, function () { });
+            });
+        });
+        </script>
+    }
 
 </body>
 </html>

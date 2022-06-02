@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Product>
+﻿@using webBanHang.Models;
+@model IEnumerable<Product>
 
 
 @{
@@ -28,7 +29,7 @@
             <td><input class="quantity" value="@p.Quantity" data-id="@p.Id" size="3"></td>
             <td id="@p.Id">@Html.FormatValue(p.UnitPrice * p.Quantity * (1 - p.Discount), "{0:c}")</td>
             <td>
-                <img class="remove-from-cart" data-id="@p.Id" src="~/img/icons/Trash.png" />
+                <img class="remove-from-cart chinhanh" data-id="@p.Id" src="~/Content/img/products/@p.Image" />
             </td>
         </tr>
     }

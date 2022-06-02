@@ -79,7 +79,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -215,6 +218,8 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -223,6 +228,126 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\jquery-ui.css" />
     <Content Include="Content\css\jquery-ui.min.css" />
+    <Content Include="Content\img\1001.jpg" />
+    <Content Include="Content\img\1002.jpg" />
+    <Content Include="Content\img\1003.jpg" />
+    <Content Include="Content\img\1004.jpg" />
+    <Content Include="Content\img\1005.jpg" />
+    <Content Include="Content\img\1006.jpg" />
+    <Content Include="Content\img\1006.png" />
+    <Content Include="Content\img\1007.jpg" />
+    <Content Include="Content\img\1008.jpg" />
+    <Content Include="Content\img\1009.jpg" />
+    <Content Include="Content\img\1010.jpg" />
+    <Content Include="Content\img\1011.jpg" />
+    <Content Include="Content\img\1012.jpg" />
+    <Content Include="Content\img\1013.jpg" />
+    <Content Include="Content\img\1014.jpg" />
+    <Content Include="Content\img\1015.jpg" />
+    <Content Include="Content\img\1016.jpg" />
+    <Content Include="Content\img\1017.jpg" />
+    <Content Include="Content\img\1018.jpg" />
+    <Content Include="Content\img\1019.jpg" />
+    <Content Include="Content\img\1020.jpg" />
+    <Content Include="Content\img\1021.jpg" />
+    <Content Include="Content\img\1022.jpg" />
+    <Content Include="Content\img\1023.jpg" />
+    <Content Include="Content\img\1024.jpg" />
+    <Content Include="Content\img\1025.jpg" />
+    <Content Include="Content\img\1026.jpg" />
+    <Content Include="Content\img\1027.jpg" />
+    <Content Include="Content\img\1028.jpg" />
+    <Content Include="Content\img\1029.jpg" />
+    <Content Include="Content\img\1030.jpg" />
+    <Content Include="Content\img\1031.jpg" />
+    <Content Include="Content\img\1032.jpg" />
+    <Content Include="Content\img\1033.jpg" />
+    <Content Include="Content\img\1033.png" />
+    <Content Include="Content\img\1034.jpg" />
+    <Content Include="Content\img\1035.jpg" />
+    <Content Include="Content\img\1036.jpg" />
+    <Content Include="Content\img\1037.jpg" />
+    <Content Include="Content\img\1038.jpg" />
+    <Content Include="Content\img\1039.jpg" />
+    <Content Include="Content\img\1040.jpg" />
+    <Content Include="Content\img\1041.jpg" />
+    <Content Include="Content\img\1042.jpg" />
+    <Content Include="Content\img\1043.jpg" />
+    <Content Include="Content\img\1044.jpg" />
+    <Content Include="Content\img\1045.jpg" />
+    <Content Include="Content\img\1046.jpg" />
+    <Content Include="Content\img\1047.jpg" />
+    <Content Include="Content\img\1048.jpg" />
+    <Content Include="Content\img\1049.jpg" />
+    <Content Include="Content\img\1050.jpg" />
+    <Content Include="Content\img\1051.jpg" />
+    <Content Include="Content\img\1052.jpg" />
+    <Content Include="Content\img\1053.jpg" />
+    <Content Include="Content\img\1054.jpg" />
+    <Content Include="Content\img\1055.jpg" />
+    <Content Include="Content\img\1056.jpg" />
+    <Content Include="Content\img\1057.jpg" />
+    <Content Include="Content\img\1058.jpg" />
+    <Content Include="Content\img\1059.jpg" />
+    <Content Include="Content\img\1060.jpg" />
+    <Content Include="Content\img\1061.jpg" />
+    <Content Include="Content\img\1061.png" />
+    <Content Include="Content\img\1062.jpg" />
+    <Content Include="Content\img\1063.jpg" />
+    <Content Include="Content\img\1064.jpg" />
+    <Content Include="Content\img\1065.jpg" />
+    <Content Include="Content\img\1066.jpg" />
+    <Content Include="Content\img\1067.jpg" />
+    <Content Include="Content\img\1068.jpg" />
+    <Content Include="Content\img\1069.jpg" />
+    <Content Include="Content\img\1070.jpg" />
+    <Content Include="Content\img\1071.jpg" />
+    <Content Include="Content\img\1072.jpg" />
+    <Content Include="Content\img\1073.jpg" />
+    <Content Include="Content\img\1074.jpg" />
+    <Content Include="Content\img\1075.jpg" />
+    <Content Include="Content\img\1076.jpg" />
+    <Content Include="Content\img\1077.gif" />
+    <Content Include="Content\img\1081.jpg" />
+    <Content Include="Content\img\1083.jpg" />
+    <Content Include="Content\img\1084.jpg" />
+    <Content Include="Content\img\1085.jpg" />
+    <Content Include="Content\img\1087.jpg" />
+    <Content Include="Content\img\1096.gif" />
+    <Content Include="Content\img\1097.jpg" />
+    <Content Include="Content\img\1098.jpg" />
+    <Content Include="Content\img\1099.gif" />
+    <Content Include="Content\img\1100.jpg" />
+    <Content Include="Content\img\1101.jpg" />
+    <Content Include="Content\img\1102.jpg" />
+    <Content Include="Content\img\1103.jpg" />
+    <Content Include="Content\img\1104.jpg" />
+    <Content Include="Content\img\1105.jpg" />
+    <Content Include="Content\img\1106.jpg" />
+    <Content Include="Content\img\1107.jpg" />
+    <Content Include="Content\img\1108.jpg" />
+    <Content Include="Content\img\1109.jpg" />
+    <Content Include="Content\img\1110.jpg" />
+    <Content Include="Content\img\1111.jpg" />
+    <Content Include="Content\img\1112.jpg" />
+    <Content Include="Content\img\1113.jpg" />
+    <Content Include="Content\img\1114.jpg" />
+    <Content Include="Content\img\1115.jpg" />
+    <Content Include="Content\img\1116.jpg" />
+    <Content Include="Content\img\1117.jpg" />
+    <Content Include="Content\img\1118.jpg" />
+    <Content Include="Content\img\1119.jpg" />
+    <Content Include="Content\img\1120.gif" />
+    <Content Include="Content\img\1121.gif" />
+    <Content Include="Content\img\1122.jpg" />
+    <Content Include="Content\img\1123.jpg" />
+    <Content Include="Content\img\1124.png" />
+    <Content Include="Content\img\banner-camera.jpg" />
+    <Content Include="Content\img\gucci 1995.jpg" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logo1.png" />
+    <Content Include="Content\img\product.png" />
+    <Content Include="Content\img\Rado 9500.jpg" />
     <Content Include="Content\js\jquery-ui.js" />
     <Content Include="Content\js\jquery-ui.min.js" />
     <Content Include="Content\js\jquery.scrollbox.js" />
@@ -238,6 +363,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\js\jquery-scrollbox.jquery.json" />
+    <Content Include="ClassDiagram2.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -303,11 +429,20 @@
     <Content Include="Views\Order\List.cshtml" />
     <Content Include="Views\Shared\_Special.cshtml" />
     <Content Include="Views\Shared\SoLuongSanPham.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\fonts\" />
-    <Folder Include="Content\img\" />
+    <Folder Include="Content\img\banner\" />
+    <Folder Include="Content\img\Brand\" />
+    <Folder Include="Content\img\categories\" />
+    <Folder Include="Content\img\contacts\" />
+    <Folder Include="Content\img\customers\" />
+    <Folder Include="Content\img\icons\" />
+    <Folder Include="Content\img\products\" />
+    <Folder Include="Content\img\suppliers\" />
     <Folder Include="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
@@ -317,6 +452,9 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
